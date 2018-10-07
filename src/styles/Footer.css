@@ -1,0 +1,28 @@
+.pokemon__footer {
+position:fixed;
+bottom:0;
+width: 100%;
+}
+.left__quarter{
+width: 90px; 
+height: 90px; 
+background: #F1002F;
+-moz-border-radius: 0 100% 0 0;
+-webkit-border-radius: 0 100% 0 0;
+border-radius: 0 100% 0 0;
+position: absolute;
+bottom:0;
+left:0;
+}
+.right__quarter{
+width: 90px; 
+height: 90px; 
+background: #F1002F;
+-moz-border-radius: 0 100% 0 0;
+-webkit-border-radius: 0 100% 0 0;
+border-radius: 0 100% 0 0;
+transform: rotate(-90deg);
+position: absolute;
+bottom:0;
+right:0;
+}
