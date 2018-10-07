@@ -11,7 +11,7 @@ class PokeCard extends React.Component {
             <p className="pokemon__item-id"> ID/{this.props.item.id}</p>
             </div>
             <div className ="pokemon__info">
-            <h2 className="pokemon__info-name" >{this.props.item.name} </h2>
+            <h4 className="pokemon__info-name" >{this.props.item.name} </h4>
             <ul className="pokemon__info-skills">
               {this.props.item.types
                 .map(skill => {

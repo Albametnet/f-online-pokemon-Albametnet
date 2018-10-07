@@ -2,7 +2,7 @@
 width: 100%;
 box-shadow: 0px 0px 12px 0px rgba(50, 50, 50, 0.26);
 border: 1px solid #B6B6B6;
-background-color: #F5ECEC
+background-color: #FFFFFF;
 }
 .pokemon__card{
 width: 100%;
@@ -10,29 +10,44 @@ display: flex;
 flex-direction: column;
 }
 .pokemon__item{
-background-color: #d2dae2;
-}
-.pokemon__item-pic{
-
+background-color: #DEDEDE;
 }
 .pokemon__item-id{
 margin: 0;
-height: 25px;
-background-color: #8DBDB;
+height: 18px;
+background-color: #D0CDC9;
 text-align: left;
 margin-right: 80%;
-padding: 0 5px 0 5px;
+padding: 5px 5px 0 5px;
+color:#7A5F48;
+font-size: 12px;
+display: flex;
+text-align: center;
 }
 .pokemon__info{
-background-color: #F5ECEC;
-width: 100%;
+background-color: #FFFFFF;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding-left: 10px;
+padding-bottom: 20px;
 }
 .pokemon__info-name{
-
+text-transform: capitalize;
+margin: 10px 0 2px 0;
 }
 .pokemon__info-skills{
-list-style: none;
+width: 100%;
+display: flex;
+padding: 0;
 }
 .pokemon__info-skill{
-
+border: 1px solid #B6B6B6;
+border-radius: 5px;
+list-style: none;
+padding: 2px;
+margin-right: 5px;
+color:#907763;
+font-size: 10px;
+text-transform: uppercase;
 }
